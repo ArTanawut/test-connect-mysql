@@ -1,1 +1,1 @@
-web:bin/test-connect-mysql
+web:bin/test-connect-mysql  
