@@ -12,8 +12,9 @@ import (
 
 func getPort() string {
 	var port = os.Getenv("PORT")
+	fmt.Println("port get env : " + port)
 	if port == "" {
-		port = "8080"
+		port = "4747"
 		fmt.Println("No Port In Heroku :" + port)
 	}
 	return ":" + port
